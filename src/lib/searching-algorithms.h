@@ -5,4 +5,4 @@
 #include "./insertion-sort/insertion-sort.h"
 
 // Recursion
-#include "./fuctorial/fuctorial.h"
+#include "./factorial/factorial.h"
