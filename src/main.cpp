@@ -16,6 +16,8 @@ int main()
     Initialize(arr, SIZE);
     Show(arr, SIZE);
 
+    BubbleSort(arr, SIZE);
+
     SelectionSort(arr, SIZE);
 
     // Linear Search
