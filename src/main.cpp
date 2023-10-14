@@ -16,28 +16,30 @@ int main()
     Initialize(arr, SIZE);
     Show(arr, SIZE);
 
+    // Bubble Sort algorithm
     BubbleSort(arr, SIZE);
 
+    // Selection Sert alrorithm
     SelectionSort(arr, SIZE);
 
-    // Linear Search
+    // Linear Search algorithm start
     std::cout << "Enter value that you want to find: ";
     int value;
     std::cin >> value;
 
     ShowLinearSearchResult(arr, SIZE, value);
-    // space end
+    // algorithm end
 
     return 0;
 }
 
-void Initialize(int arr[], int size)
+inline void Initialize(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
         arr[i] = rand() % 100;
 }
 
-void Show(const int arr[], int size)
+inline void Show(const int arr[], int size)
 {
     if (arr == nullptr)
         return;
