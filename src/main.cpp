@@ -17,7 +17,7 @@ int main()
     Show(arr, SIZE);
 
     // Recursion
-    std::cout << Factorial(5) << std::endl;
+    std::cout << "5! = " << Factorial(5) << std::endl;
 
     // Insertion Sort algorithm
     InsertionSort(arr, SIZE);
