@@ -6,7 +6,6 @@
 void Initialize(int arr[], int size);
 void Show(const int arr[], int size);
 
-
 int main()
 {
     srand(static_cast<unsigned>(time(nullptr)));
@@ -17,18 +16,15 @@ int main()
     Initialize(arr, SIZE);
     Show(arr, SIZE);
 
+    SelectionSort(arr, SIZE);
+
+    // Linear Search
     std::cout << "Enter value that you want to find: ";
     int value;
     std::cin >> value;
 
-    if (LinearSearch(arr, SIZE, value))
-    {
-        std::cout << "The array has your value.\n";
-    }
-    else
-    {
-        std::cout << "The array doesn't have your value.\n";
-    }
+    ShowLinearSearchResult(arr, SIZE, value);
+    // space end
 
     return 0;
 }

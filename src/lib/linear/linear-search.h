@@ -1,2 +1,2 @@
 template <typename T>
-bool LinearSearch(const T arr[], int size, int key);
+void ShowLinearSearchResult (const T arr[], int size, T key);
