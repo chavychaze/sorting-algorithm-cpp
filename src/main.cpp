@@ -16,6 +16,9 @@ int main()
     Initialize(arr, SIZE);
     Show(arr, SIZE);
 
+    // Insertion Sort algorithm
+    InsertionSort(arr, SIZE);
+
     // Bubble Sort algorithm
     BubbleSort(arr, SIZE);
 
