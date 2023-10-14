@@ -16,6 +16,9 @@ int main()
     Initialize(arr, SIZE);
     Show(arr, SIZE);
 
+    // Recursion
+    std::cout << Fuctorial(5) << std::endl;
+
     // Insertion Sort algorithm
     InsertionSort(arr, SIZE);
 

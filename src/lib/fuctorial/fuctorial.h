@@ -1,0 +1,1 @@
+int Fuctorial(int number);
