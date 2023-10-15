@@ -1,5 +1,5 @@
 template <typename T>
-inline bool LinearSearch(const T arr[], int size, T key)
+inline bool LinearSearch(const T *arr, int size, T key)
 {
     for (int i = 0; i < size; i++)
         if (arr[i] == key)
@@ -9,7 +9,7 @@ inline bool LinearSearch(const T arr[], int size, T key)
 }
 
 template <typename T>
-void ShowLinearSearchResult(const T arr[], int size, T key)
+void ShowLinearSearchResult(const T *arr, int size, T key)
 {
     if (LinearSearch(arr, size, value))
     {

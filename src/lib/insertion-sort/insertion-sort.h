@@ -1,2 +1,2 @@
 template <typename T>
-void InsertionSort(T arr[], int size);
+void InsertionSort(T *arr, int size);

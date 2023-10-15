@@ -1,7 +1,7 @@
 #include <iostream>
 
 template <typename T>
-void QuickSort(T arr[], int indexLow, int indexHigh)
+void QuickSort(T *arr, int indexLow, int indexHigh)
 {
     T middle = arr[(indexLow + indexHigh) / 2];
     int i = indexLow;
@@ -22,8 +22,8 @@ void QuickSort(T arr[], int indexLow, int indexHigh)
         }
     } while (i <= j);
 
-    if(j > indexLow)
+    if (j > indexLow)
         QuickSort(arr, indexLow, j);
-    if(i < indexHigh)
+    if (i < indexHigh)
         QuickSort(arr, i, indexHigh);
 }

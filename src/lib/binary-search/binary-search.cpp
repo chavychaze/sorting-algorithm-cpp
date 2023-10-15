@@ -1,5 +1,5 @@
 template <typename T>
-bool BinarySearch(T arr[], int size, T key)
+bool BinarySearch(T *arr, int size, T key)
 {
     int leftBound = 0, rightBound = size - 1;
 
@@ -19,7 +19,7 @@ bool BinarySearch(T arr[], int size, T key)
 }
 
 template <typename T>
-void ShowBinarySearchResult(const T arr[], int size, T key)
+void ShowBinarySearchResult(const T *arr, int size, T key)
 {
     if (BinarySearch(arr, size, key))
     {

@@ -1,2 +1,2 @@
 template <typename T>
-void BubbleSort(T arr[], int size);
+void BubbleSort(T *arr, int size);

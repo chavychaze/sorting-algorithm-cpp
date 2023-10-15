@@ -50,13 +50,13 @@ int main()
     return 0;
 }
 
-inline void Initialize(int arr[], int size)
+inline void Initialize(int* arr, int size)
 {
     for (int i = 0; i < size; i++)
         arr[i] = rand() % 100;
 }
 
-inline void Show(const int arr[], int size)
+inline void Show(const int* arr, int size)
 {
     if (arr == nullptr)
         return;
