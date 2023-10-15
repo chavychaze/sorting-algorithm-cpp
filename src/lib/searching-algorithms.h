@@ -3,6 +3,7 @@
 #include "./selection/selection-sort.h"
 #include "./bubble-sort/bubble-sort.h"
 #include "./insertion-sort/insertion-sort.h"
+#include "./quick-sort/quick-sort.h"
 
 // Recursion
-#include "./factorial/factorial.h"
+#include "./recursion/factorial.h"

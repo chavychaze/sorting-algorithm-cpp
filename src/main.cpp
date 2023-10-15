@@ -16,6 +16,9 @@ int main()
     Initialize(arr, SIZE);
     Show(arr, SIZE);
 
+    // Quick Sort algorithm
+    QuickSort(arr, 0, SIZE - 1);
+
     // Recursion
     std::cout << "5! = " << Factorial(5) << std::endl;
 
