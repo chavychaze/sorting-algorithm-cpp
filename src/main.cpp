@@ -19,6 +19,14 @@ int main()
     // Quick Sort algorithm
     QuickSort(arr, 0, SIZE - 1);
 
+    // Binary Search algorithm start --- SHOULD BE SORTED ARRAY
+    std::cout << "Enter value that you want to find: ";
+    int bValue;
+    std::cin >> bValue;
+
+    ShowBinarySearchResult(arr, SIZE, bValue);
+    // algorithm end
+
     // Recursion
     std::cout << "5! = " << Factorial(5) << std::endl;
 
